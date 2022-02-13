@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Img Compare</string>
+    <string name="compare">Compare</string>
+    <string name="remove">Remove</string>
+    <string name="picture">PICTURE</string>
+    <string name="id">ID</string>
+    <string name="url">URL</string>
+    <string name="title">TITLE</string>
+</resources>

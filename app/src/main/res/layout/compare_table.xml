@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/compare_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/tableText"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@string/picture" />
+
+                        <TextView
+                            style="@style/tableText"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@string/id" />
+
+                        <TextView
+                            style="@style/tableText"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@string/url" />
+
+                        <TextView
+                            style="@style/tableText"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@string/title" />
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </ScrollView>
+
+</LinearLayout>
